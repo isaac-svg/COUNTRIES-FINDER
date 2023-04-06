@@ -20,6 +20,7 @@
   box-sizing: border-box;
   margin-inline: auto;
   font-family: "Nunito Sans", sans-serif;
+  transition: 300ms;
 }
 a {
   text-decoration: none;
