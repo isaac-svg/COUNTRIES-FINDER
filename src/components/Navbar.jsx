@@ -1,8 +1,7 @@
 import React, { useContext } from "react";
 import { ThemeContext } from "../context/ThemeProvider";
-// import { Brightness5Icon } from "@material-ui/icons/Brightness5";
-import NightsStayOutlinedIcon from "@material-ui/icons/NightsStayOutlined";
-import WbSunnyOutlinedIcon from "@material-ui/icons/WbSunnyOutlined";
+import WbSunnyOutlinedIcon from "@mui/icons-material/WbSunnyOutlined";
+import NightsStayOutlinedIcon from "@mui/icons-material/NightsStayOutlined";
 const Navbar = () => {
   const { ToggleTheme, isDark } = useContext(ThemeContext);
   return (

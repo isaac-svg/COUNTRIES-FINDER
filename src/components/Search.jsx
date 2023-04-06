@@ -1,4 +1,4 @@
-import { SearchRounded } from "@material-ui/icons";
+import SearchRounded from "@mui/icons-material/SearchRounded";
 import React, { useState } from "react";
 
 const Search = ({ onSearch, onSelect }) => {
